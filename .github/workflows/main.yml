@@ -33,7 +33,7 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute "Machine Learning with Iris Dataset.ipynb"
+        run: jupyter run "Machine Learning with Iris Dataset.ipynb"
         shell: bash 
 
  # Add new files in folder, commit along with other modified files, push
